@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+  overflow: hidden;
+}
+html{
+  font-size: 10px;
+  background-color: rgb(245, 190, 209);
+  color: black;
+}
+/*nav */
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  height: 100px;
+}
+nav img{
+  margin-left: 100px;
+  margin-top: 40px;
+}
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  margin-left: 250px;
+
+}
+nav ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  color:black;
+  margin-left: 70px;
+}
+nav ul li a:hover{
+  opacity: .6;
+}
+
+.single_product{
+  display: grid;
+  align-items: center;
+  grid-template-columns: 400px auto;
+  margin-left: 200px;
+  grid-column-gap: 50px;
+  
+}
+.col-1 button{
+background-color: palevioletred; 
+border: none;
+color: black;    
+padding: 16px 16px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+transition-duration: 0.4s;
+cursor: pointer; 
+}
+  
+
+.col-1 button:hover {
+ background-color: pink;
+color: white;
+}
+.button-round{
+border-radius: 50%;
+}
+
